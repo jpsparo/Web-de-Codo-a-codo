@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/index.css">
+</head>
+<body>
+    <header class="cabecera"> 
+        <nav class="navbar"> 
+            <picture class="navbar__logo"> 
+                <a href="./index.html">
+                    <img src="/img/Mas Destilados Logo1.png" alt="Logo">
+                </a>
+            </picture>
+            <ul class="navbar__menu">
+                <li class="navbar__menu__item">
+                    <a class="menu__item__link" href="./index.html">Inicio</a>
+                </li>
+                <li class="navbar__menu__item">
+                    <a class="menu__item__link" href="./Nosotros.html">Nosotros</a>
+                </li>
+                <li class="navbar__menu__item">
+                    <a class="menu__item__link" href="./Productos.html">Productos</a>
+                    <!-- 
+                    <ul class="navbar__menu">
+                        <li class="navbar__menu__item">
+                            <a class="menu__item__link" href="">Cervezas</a>
+                        </li>
+                        <li class="navbar__menu__item">
+                            <a class="menu__item__link" href="">Vinos</a>
+                        </li>
+                        <li class="navbar__menu__item">
+                            <a class="menu__item__link" href="">Whiskys</a>
+                        </li>
+                    </ul>
+                    -->
+                </li>
+                <li class="navbar__menu__item">
+                    <a class="menu__item__link" href="./Contacto.html">Contacto</a>
+                </li>
+            </ul>
+
+        </nav>
+
+    </header>
+    <main>
+        <h2>Formulario de contacto</h2>
+        <form action="./mensaje_exitoso.html" method="post" enctype="text/plain" target="_blank">
+            <label for="firstname">Nombre:</label> <input name= "firstname" type="text" placeholder="Introduce tu nombre">
+            <br>
+            <br>
+            <label for="lastname">Apellido:</label> <input name= "lastname" type="text" placeholder="Introduce tu apellido">
+            <br>
+            <br>
+            <label for="adress">Dirección:</label><input name= "adress" type="text" placeholder="Introduce tu dirección">
+            <br>
+            <br>
+            <label for="phone">Teléfono:</label> <input name= "phone" type="number" placeholder="Introduce tu n° de teléfono (sin guiones)">
+            <br>
+            <br>
+            <label for="city">Localidad:</label> <input name= "city" type="text" placeholder="Introduce tu localidad">
+            <br>
+            <br>
+            <label for="CUIT">CUIT:</label> <input name= "CUIT" type="number" placeholder="Introduce tu n° de CUIT o CUIL">
+            <br>
+            <br>
+            <input type="submit" value="Enviar datos">
+
+        </form>
+    </main>
+    
+</body>
+</html>
