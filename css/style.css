@@ -7,6 +7,21 @@
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif; /* Esta es una opción de fuente */
 }
+
+:root{
+    /*
+        declaracion de variables para colores principales del theme.
+        se declaran utilizando --var = valor_a_asignar; valor a asignar puede ser un valor de cualquier propiedad de css
+        por ejemplo: 15px; red; inherit, etc. No puede contener propiedades de css como color, o margin. 
+    */
+    /* variable de color principal */
+    --color-principal: #DEDD0E;
+    /* variables para colores neutros */
+    --color-contraste-dark: #4a4440;
+    --color-contraste-dark-alt: #2b2b2b;
+    --color-contraste-light: #F1F2ED;
+}
+
 ul {
    list-style-type: none; 
 }
@@ -15,7 +30,7 @@ a {
 }
 /* Estilo */
 .cabecera {
-    background-color: #4a4440;
+    background-color: var(--color-contraste-dark);
 }
 
 html {
@@ -24,8 +39,8 @@ html {
 }
 
 body {
-    color: #dedd0e;
-    background-color: #2b2b2b;
+    color: var(--color-principal);
+    background-color: var(--color-contraste-dark-alt);
 }
 
 img {
@@ -65,7 +80,7 @@ header {
 }
 
 .navbar__menu .navbar__menu__item:hover .menu__item__link {
-    background-color: #2b2b2b;
+    background-color: var(--color-contraste-dark-alt);
 }
 
 @media (max-width: 768px) {
