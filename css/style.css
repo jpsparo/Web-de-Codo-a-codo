@@ -1,5 +1,6 @@
 /* Fuente para usar */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('media-style.css');
 /* Normalización */
 * {
     margin: 0;
@@ -81,18 +82,4 @@ header {
 
 .navbar__menu .navbar__menu__item:hover .menu__item__link {
     background-color: var(--color-contraste-dark-alt);
-}
-
-@media (max-width: 768px) {
-    .navbar {
-       flex-direction: column;
-       gap: 2rem;
-    }
-}
-
-@media (max-width: 468px) { 
-    .navbar .navbar__menu {
-        flex-direction: column;
-        text-align: center;
-    }
 }
