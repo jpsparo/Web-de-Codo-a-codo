@@ -85,6 +85,16 @@ header {
 
 /************************-[ESTILOS PARA CARDS EN PRODUCTOS.HTML]-************************/
 
+.products-title{
+    margin: 1.5rem auto;
+    text-align: center;
+    padding-bottom: 10px;
+    border-bottom: 1px solid var(--color-principal);
+    max-width: 90%;
+    font-size: 2em;
+    color: var(--color-principal);
+}
+
 .product-container{
     display: flex;
     flex-flow: row wrap;
@@ -96,8 +106,10 @@ header {
 
 .product-container__item{
     min-height: 350px;
-    outline: 1px solid steelblue;
+    /* outline: 1px solid var(--color-principal); */
+    border-radius: 10px;
     flex: 0 0 32.3333333333%;
+    background-color: var(--color-contraste-dark);
 }
 
 /****************************************************************************************/
