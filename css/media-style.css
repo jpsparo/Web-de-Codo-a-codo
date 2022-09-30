@@ -1,12 +1,12 @@
-/* BP -> computadoras */
-@media(max-width: 960px){
-    
-}
 /* BP -> dispositivos moviles y tablets landscape  */
 @media (max-width: 768px) {
     .navbar {
        flex-direction: column;
        gap: 2rem;
+    }
+
+    .product-container__item{
+        flex: 0 0 48%
     }
 }
 /* BP -> dispositivos moviles y tablets portrait */
@@ -14,5 +14,9 @@
     .navbar .navbar__menu {
         flex-direction: column;
         text-align: center;
+    }
+
+    .product-container__item{
+        flex: 0 0 98%
     }
 }

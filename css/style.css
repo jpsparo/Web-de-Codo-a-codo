@@ -82,3 +82,22 @@ header {
 .navbar__menu .navbar__menu__item:hover .menu__item__link {
     background-color: var(--color-contraste-dark-alt);
 }
+
+/************************-[ESTILOS PARA CARDS EN PRODUCTOS.HTML]-************************/
+
+.product-container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 15px auto;
+    gap: 10px;
+}
+
+.product-container__item{
+    min-height: 350px;
+    outline: 1px solid steelblue;
+    flex: 0 0 32.3333333333%;
+}
+
+/****************************************************************************************/
