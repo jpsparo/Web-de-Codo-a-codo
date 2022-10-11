@@ -139,8 +139,8 @@ header {
 .card__image{
     position: relative;
     top: 0;
-    width: 110%;
-    /* height: 90%; */
+    width: 120%;
+    object-fit: cover;
     transition: 1s;
 }
 
@@ -198,7 +198,7 @@ header {
    color: var(--color-contraste-dark-alt);
 }
 
-.card__texts p{
+.card__description{
     margin: 10px auto;
     color: rgba(222, 221, 243, 0.9);
     text-align: center;

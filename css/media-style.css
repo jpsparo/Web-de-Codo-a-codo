@@ -1,7 +1,7 @@
 /* BP -> monitores pequeños y laptops */
 @media (max-width: 960px){
-    .card__image{
-        height: 75%;
+    .card__description{
+        line-height: 1rem;
     }
 }
 
@@ -15,10 +15,6 @@
     .product-container__item{
         flex: 0 0 45%
     }
-
-    .card__image{
-        height: 80%;
-    }
 }
 /* BP -> dispositivos moviles y tablets portrait */
 @media (max-width: 468px) { 
@@ -29,9 +25,5 @@
 
     .product-container__item{
         flex: 0 0 90%
-    }
-
-    .card__image{
-        height: 80%;
     }
 }
