@@ -1,7 +1,7 @@
 /* BP -> monitores pequeños y laptops */
 @media (max-width: 960px){
     .card__image{
-        height: 80%;
+        height: 75%;
     }
 }
 
